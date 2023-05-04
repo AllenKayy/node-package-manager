@@ -7,7 +7,7 @@ The Event loop is a process that allows NodeJS perform non-blocking, asynchronou
 The event loop then moves on to the next event, repeating the process until there are no more events to process. This allows for multiple tasks to be executed in parallel without blocking the main thread of execution or requiring additional threads or processes.
 
 ## Explain the 6 phases of the event loop
-the 6 phases of 
+The 6 phases of the event loop are:
 
 1. Timers: This phase executes all callbacks that are scheduled to run at a particular time using setTimeout() and setInterval().
 
@@ -25,10 +25,6 @@ the 6 phases of
 
 Some best practices in server-side code development includes:
 
-- Code quality
-- Keeping code small
-- Using ES6 and Async/Await
-- Handle errors
 - Write modular code: Break down your code into small, reusable modules that can be easily tested, maintained, and updated. This makes your code more scalable and easier to understand.
 
 - Use version control: Use a version control system like Git to track changes to your code, collaborate with other developers, and revert to previous versions if necessary.
